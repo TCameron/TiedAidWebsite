@@ -1,0 +1,44 @@
+table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.desc {
+    width: 1000px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(46,105,163);
+    font-family: Palatino, 'Palatino Linotype', serif;
+    font-size: 32px;
+}
+
+#footer {
+    font-size: 0.75rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    color: rgb(46,105,163);
+    font-size: 1.25em;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}

@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    text-align: left;
+}
+
+button {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(46,105,163);
+    font-family: Palatino, 'Palatino Linotype', serif;
+    font-size: 32px;
+}
+
+#footer {
+    font-size: 0.75rem;
+}
+
