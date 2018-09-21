@@ -5,10 +5,12 @@
  * Date: 7/20/2016
  * Time: 14:31
  */
+
 $servername = "";
 $username = "";
 $password = "";
 $dbname = "";
+
 // Create Connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check Connection
