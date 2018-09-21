@@ -6,10 +6,10 @@
  * Time: 14:31
  */
 
-$servername = "localhost";
-$username = "tied_aid";
+$servername = "";
+$username = "";
 $password = "";
-$dbname = "tied_aid";
+$dbname = "";
 
 // Create Connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
