@@ -8,7 +8,7 @@
 
 $servername = "localhost";
 $username = "tied_aid";
-$password = "";
+$password = "TiedAidDatabasePassword";
 $dbname = "tied_aid";
 
 // Create Connection
