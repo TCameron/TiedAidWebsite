@@ -6,14 +6,13 @@
  * Time: 14:31
  */
 
-$servername = "localhost";
-$username = "tied_aid";
-$password = "TiedAidDatabasePassword";
-$dbname = "tied_aid";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create Connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
-
 // Check Connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
